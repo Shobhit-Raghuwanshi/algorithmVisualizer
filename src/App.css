@@ -1,0 +1,72 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: rgb(34, 40, 49);
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+}
+.navbar {
+  background-color: rgb(57, 62, 70) !important;
+  flex: 0.2;
+  height: 100vh;
+  z-index: 1;
+}
+.main {
+  flex: 0.8;
+  width: 80%;
+}
+.nav-bar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(34, 40, 49);
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flexbox;
+  flex-direction: column;
+  color: white;
+}
+.link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.grid-container {
+  background-color: rgb(51, 63, 68);
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.btn {
+  margin: 20px !important;
+}
+.appbar {
+  height: 84px;
+}
+.home-container {
+  margin: 20px;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  color: rgb(34, 40, 49) !important;
+  background-color: rgb(204, 202, 202) !important;
+}

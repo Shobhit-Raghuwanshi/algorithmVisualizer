@@ -1,0 +1,29 @@
+.array-container {
+  background-color: rgb(51, 63, 68);
+  display: flex;
+  justify-content: center;
+  height: 598px;
+}
+.bar {
+  outline: 1px solid black;
+  width: 1vw;
+}
+.btn-container {
+  display: flex;
+  background-color: rgb(26, 26, 27);
+  justify-content: center !important;
+}
+.btn {
+  margin: 20px !important;
+}
+.slide {
+  background-color: rgb(26, 26, 27);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.slider {
+  color: rgb(218, 0, 55) !important;
+}
+/* .out {
+  color: green !important;
+} */

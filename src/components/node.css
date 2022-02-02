@@ -1,0 +1,113 @@
+.node {
+  height: 3.33vh;
+  width: 1.67vw;
+  background-color: rgb(51, 63, 68);
+
+  outline: 1px solid rgb(65, 65, 65);
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: -2.4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.node-wall {
+  outline: 1px solid rgb(232, 232, 232);
+  animation-name: wallAnimation;
+
+  animation-timing-function: ease-out;
+  animation-delay: 0ms;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.node-visited {
+  animation-name: visitedAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: rgb(27, 38, 44);
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: rgb(15, 76, 117);
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: rgb(50, 130, 184);
+  }
+
+  100% {
+    transform: scale(1);
+    outline: 1px solid rgb(187, 225, 250);
+
+    background-color: rgb(187, 225, 250);
+  }
+}
+
+.startNode {
+  background-image: url(../images/end.png) !important;
+  background-size: cover;
+}
+.endNode {
+  background-image: url(../images/start.png) !important;
+  background-size: cover;
+}
+
+@keyframes wallAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: rgb(187, 191, 202);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(187, 191, 202);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: rgb(187, 191, 202);
+  }
+}
+
+.node-shortest-path {
+  animation-name: shortestPath;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes shortestPath {
+  0% {
+    transform: scale(0.6);
+    background-color: rgb(34, 40, 49);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #393e46;
+  }
+
+  100% {
+    transform: scale(1);
+    outline: 1px solid #ffd369;
+    background-color: #ffd369;
+  }
+}
