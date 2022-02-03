@@ -1,3 +1,7 @@
+![algoVisualizer-1](https://user-images.githubusercontent.com/58902798/152276901-d96efe92-cde6-49ed-99f0-7b9024f8e240.gif)
+![algoVisualizer-2](https://user-images.githubusercontent.com/58902798/152276910-ec3188b3-12c7-4e74-a360-d28aa5c78cff.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
