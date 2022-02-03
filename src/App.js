@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 import Navbar from './components/Navbar'
 import Grid from './components/Grid';
-import { Routes,Route } from 'react-router-dom';
+import { Routes,Route,Navigate } from 'react-router-dom';
 import Sort from './components/Sort';
 import Home from './components/Home'
 
@@ -14,6 +14,7 @@ function App() {
         <Navbar />
       </div>
       <div className="main">
+      <Navigate to="/" />
         <Routes>
 
         <Route path="/" element={<Home />}></Route>
@@ -32,5 +33,8 @@ function App() {
     </div>
   );
 }
+
+export default App;
+
 
 export default App;
